@@ -17,6 +17,13 @@ def start(m, res=False):
     bot.send_message(m.chat.id, 'Бот запущен и успешно работает!')
     
 
+
+@bot.message_handler(commands=["rules"])
+def start(m, res=False):
+    bot.send_message(m.chat.id, )
+
+   
+
 if __name__ == '__main__':
     bot.polling(none_stop=True)
     
