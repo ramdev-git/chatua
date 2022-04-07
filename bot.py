@@ -1,7 +1,7 @@
 from telebot import TeleBot
 import time
 
-bot = TeleBot('5233453489:AAFiUt9BL9gzD-7lU3pwVsPFlY_y2HFZ158')
+bot = TeleBot('5283370036:AAH0EF0qClfhWMLgvtmPMkgftcf0SNqNf2Q')
 
 
 @bot.message_handler(content_types=["new_chat_members"])
